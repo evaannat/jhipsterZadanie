@@ -1,0 +1,23 @@
+{
+  "jhipsterZadanieApp": {
+    "interest": {
+      "home": {
+        "title": "Interest",
+        "createLabel": "Dodaj Interest",
+        "createOrEditLabel": "Dodaj lub edytuj: Interest",
+        "notFound": "No Interests found"
+      },
+      "created": "Utworzono nowy obiekt typu Interest z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Interest z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Interest z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Interest {{ id }}?"
+      },
+      "detail": {
+        "title": "Interest"
+      },
+      "description": "Description",
+      "student": "Student"
+    }
+  }
+}
