@@ -1,0 +1,15 @@
+// Student (*) <-----> (*) Interest
+// A many-to-many relationship
+// A Student can have many interests, but an Interest can also have many students.
+entity Student {
+	name String,
+    lastName String
+}
+entity Interest {
+	id String,
+    description String,
+    }
+    
+relationship ManyToMany {
+  Student{interest} to Interest{student}
+}
